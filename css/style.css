@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+h3 {
+    color: black;
+}
+header p{
+    color:grey;
+}
+
+.logo i{
+    text-align: center;
+    border: 1px solid grey;
+    padding: 5px;
+    margin:5px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+
+} 
+.logo a i{
+	font-size: 20px;
+    line-height: 38px;
+	color: #909090;
+}
+
+header{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+body {
+    background-color: gainsboro;
+}
+img { 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 5px;
+    height: auto;
+    width: 20%;
+    min-width: 250px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0px 3px 15px 0px rgba(50, 50, 50, 0.48);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: grey;
+}
+
+.text {
+    margin: 0 20px 0 20px;
+}
+
