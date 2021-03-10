@@ -1,27 +1,27 @@
 const people = [
         {
-            "img" : "images/17.jpg",
-            "name" : "Sammy M Stoll",
-            "adress" : "Wellsville, New York(NY), 14895",
-            "about" : "Social media junkie. Avid food nerd. Professional travel fan. Tv fanatic. Bacon geek. Web fanatic."    
+            img : "images/17.jpg",
+            name : "Sammy M Stoll",
+            adress : "Wellsville, New York(NY), 14895",
+            about : "Social media junkie. Avid food nerd. Professional travel fan. Tv fanatic. Bacon geek. Web fanatic."    
         },
         {
-            "img" : "images/46.jpg",
-            "name" : "James C Young",
-            "adress" : "2597 Meadowbrook Mall Road",
-            "about" : "Certified food specialist. Pop culture geek. Typical travel evangelist. Award-winning analyst. Zombie lover."    
+            img : "images/46.jpg",
+            name : "James C Young",
+            adress : "2597 Meadowbrook Mall Road",
+            about : "Certified food specialist. Pop culture geek. Typical travel evangelist. Award-winning analyst. Zombie lover."    
         },
         {
-            "img" : "images/16.jpg",
-            "name" : "Deanna I Martin",
-            "adress" : "Worthington, Ohio(OH), 43085",
-            "about" : "Zombie ninja. Wannabe internet buff. Proud introvert. Bacon expert. Social media trailblazer."    
+            img : "images/16.jpg",
+            name : "Deanna I Martin",
+            adress : "Worthington, Ohio(OH), 43085",
+            about : "Zombie ninja. Wannabe internet buff. Proud introvert. Bacon expert. Social media trailblazer."    
         },
         {
-            "img" : "images/55.jpg",
-            "name" : "Bruce K Collins",
-            "adress" : "Westhampton Beach, New York(NY), 11978",
-            "about" : "Wannabe social media aficionado. Thinker. Unapologetic beer guru. Internet lover. Avid food buff."    
+            img : "images/55.jpg",
+            name : "Bruce K Collins",
+            adress : "Westhampton Beach, New York(NY), 11978",
+            about : "Wannabe social media aficionado. Thinker. Unapologetic beer guru. Internet lover. Avid food buff."    
         },       
          {
             img : "images/34.jpg",
@@ -53,7 +53,7 @@ const people = [
 
     const main = document.querySelector('main');
 
-    people.forEach((person, id) => {
+    people.forEach((person) => {
 
         const card = document.createElement('div');
         card.classList = 'card';
